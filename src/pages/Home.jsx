@@ -7,7 +7,7 @@ const Home = () => {
         <Container className="swiss-container">
             <Row className="justify-content-center">
                 <Col md={10} lg={8}>
-                    <h1 className="swiss-title">Streetfrontier</h1>
+                    <h1 className="swiss-title">Streetfrontier Hub</h1>
                     <p className="swiss-subtitle">
                         The hub for tools, trackers, and data visualization.
                         Exploring the infrastructure of tomorrow, today.
