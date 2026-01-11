@@ -1,0 +1,34 @@
+{
+  "name": "streetfrontier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.jsx",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashank261/streetfrontier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashank261/streetfrontier/issues"
+  },
+  "homepage": "https://github.com/shashank261/streetfrontier#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.3",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.12.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1"
+  }
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --font-family-swiss: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --color-swiss-red: #ff3333;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-800: #343a40;
+}
+
+body {
+  font-family: var(--font-family-swiss);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-gray-100);
+  color: var(--color-black);
+}
+
+.swiss-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.swiss-title {
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.swiss-subtitle {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--color-gray-800);
+  max-width: 60ch;
+  margin-bottom: 4rem;
+  border-left: 4px solid var(--color-swiss-red);
+  padding-left: 1.5rem;
+}
+
+.swiss-table-container {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 0;
+  box-shadow: 20px 20px 0px rgba(0,0,0,0.05);
+  border: 1px solid var(--color-gray-200);
+}
+
+.table thead th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  border-bottom-width: 2px;
+  border-color: var(--color-black);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.table tbody td {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  vertical-align: middle;
+  font-weight: 400;
+  border-color: var(--color-gray-200);
+}
+
+.metric-bar-bg {
+  height: 6px;
+  background-color: var(--color-gray-200);
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.metric-bar-fill {
+  height: 100%;
+  background-color: var(--color-black);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.metric-bar-fill.wip {
+  background-color: var(--color-swiss-red);
+}
+
+.nav-link-custom {
+  font-weight: 600;
+  color: var(--color-black);
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.nav-link-custom:hover {
+  border-bottom-color: var(--color-swiss-red);
+  color: var(--color-black);
+}
+
+.source-text {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 2rem;
+  border-top: 1px solid var(--color-gray-200);
+  padding-top: 1rem;
+}
