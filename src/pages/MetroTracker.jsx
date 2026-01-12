@@ -20,8 +20,7 @@ const MetroTracker = () => {
 
             <h1 className="swiss-title">Metro Train<br />Tracker</h1>
             <p className="swiss-subtitle">
-                Tracking the expansion of rapid transit infrastructure across Indian cities.
-                Ordered by current operational network length.
+                Mapping the growth of metro rail networks across Indian cities.
             </p>
 
             <div className="swiss-table-container">
