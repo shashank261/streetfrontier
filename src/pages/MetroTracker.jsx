@@ -93,9 +93,7 @@ const MetroTracker = () => {
                         <small className="text-muted">← Scroll for more →</small>
                     </div>
                 </div>
-                <div className="source-text">
-                    Source: Various news reports and official releases (Dec 2024 / Jan 2025). Data is approximate and subject to change.
-                </div>
+
             </div>
         </Container>
     );
