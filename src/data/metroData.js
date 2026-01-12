@@ -114,7 +114,7 @@ export const metroData = [
   {
     city: "Patna",
     operational: 4.3,
-    underConstruction: 3,
+    underConstruction: 6.5,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Patna_Metro"
   },
@@ -127,8 +127,8 @@ export const metroData = [
   },
   {
     city: "Bhopal",
-    operational: 16,
-    underConstruction: 13,
+    operational: 6.22,
+    underConstruction: 22,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Bhopal_Metro"
   },

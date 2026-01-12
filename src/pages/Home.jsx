@@ -9,10 +9,8 @@ const Home = () => {
                 <Col md={10} lg={8}>
                     <h1 className="swiss-title">Streetfrontier Hub</h1>
                     <p className="swiss-subtitle">
-                        The hub for tools, trackers, and data visualization.
-                        Exploring the infrastructure of tomorrow, today.
+                        A community driven platform focused on India’s urban and transit infrastructure
                     </p>
-
                     <div className="mt-5">
                         <h2 className="h4 mb-4 font-weight-bold">Available Tools</h2>
                         <div className="list-group list-group-flush border-top">
