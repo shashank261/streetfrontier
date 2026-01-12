@@ -1,108 +1,94 @@
 export const metroData = [
   {
     city: "Delhi-NCR",
-    operational: 435.42,
-    underConstruction: 154.65,
+    operational: 353.31,
+    underConstruction: 65.20,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Delhi_Metro"
   },
   {
     city: "Bengaluru",
     operational: 96.10,
-    underConstruction: 143.43,
+    underConstruction: 79.44,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Namma_Metro"
   },
   {
     city: "Mumbai",
-    operational: 88.86,
-    underConstruction: 176.05,
+    operational: 80.43,
+    underConstruction: 132.45,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Mumbai_Metro"
   },
   {
     city: "Kolkata",
     operational: 73.42,
-    underConstruction: 75.20,
+    underConstruction: 30.80,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Kolkata_Metro"
   },
   {
+    city: "Ahmedabad-Gandhinagar",
+    operational: 67.56,
+    underConstruction: 0,
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Ahmedabad_Metro"
+  },
+  {
     city: "Hyderabad",
-    operational: 69.00,
+    operational: 67.00,
     underConstruction: 0,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Hyderabad_Metro"
   },
   {
     city: "Chennai",
-    operational: 54.25,
+    operational: 54.10,
     underConstruction: 118.90,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Chennai_Metro"
   },
   {
-    city: "Ahmedabad",
-    operational: 45.45,
-    underConstruction: 8.88,
-    sourceName: "Wikipedia",
-    sourceUrl: "https://en.wikipedia.org/wiki/Ahmedabad_Metro"
-  },
-  {
     city: "Nagpur",
-    operational: 40.02,
-    underConstruction: 43.80,
+    operational: 38.22,
+    underConstruction: 43.00,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Nagpur_Metro"
   },
   {
     city: "Pune",
-    operational: 33.23,
-    underConstruction: 33.13,
+    operational: 31.25,
+    underConstruction: 79.56,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Pune_Metro"
   },
   {
     city: "Kochi",
-    operational: 28.48,
+    operational: 27.96,
     underConstruction: 11.20,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Kochi_Metro"
   },
   {
     city: "Lucknow",
-    operational: 22.88,
+    operational: 22.90,
     underConstruction: 0,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Lucknow_Metro"
   },
   {
-    city: "Gandhinagar",
-    operational: 18.80,
-    underConstruction: 0,
-    sourceName: "Wikipedia",
-    sourceUrl: "https://en.wikipedia.org/wiki/Gandhinagar_Metro"
-  },
-  {
     city: "Kanpur",
-    operational: 15.00,
-    underConstruction: 23.66,
+    operational: 16.00,
+    underConstruction: 15.05,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Kanpur_Metro"
   },
   {
     city: "Jaipur",
-    operational: 12.10,
-    underConstruction: 0,
+    operational: 11.98,
+    underConstruction: 2.85,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Jaipur_Metro"
-  },
-  {
-    city: "Gurgaon (Rapid)",
-    operational: 12.10,
-    underConstruction: 0,
-    sourceName: "Wikipedia",
-    sourceUrl: "https://en.wikipedia.org/wiki/Rapid_Metro_Gurgaon"
   },
   {
     city: "Navi Mumbai",
@@ -113,43 +99,36 @@ export const metroData = [
   },
   {
     city: "Agra",
-    operational: 6.00,
-    underConstruction: 24.10,
+    operational: 5.20,
+    underConstruction: 24.47,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Agra_Metro"
   },
   {
     city: "Surat",
     operational: 0,
-    underConstruction: 40.35,
+    underConstruction: 41.93,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Surat_Metro"
   },
   {
     city: "Patna",
     operational: 0,
-    underConstruction: 32.51,
+    underConstruction: 32.91,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Patna_Metro"
   },
   {
     city: "Indore",
     operational: 0,
-    underConstruction: 31.55,
+    underConstruction: 31.23,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Indore_Metro"
   },
   {
-    city: "Thane",
-    operational: 0,
-    underConstruction: 29.00,
-    sourceName: "Wikipedia",
-    sourceUrl: "https://en.wikipedia.org/wiki/Thane_Metro"
-  },
-  {
     city: "Bhopal",
     operational: 0,
-    underConstruction: 27.87,
+    underConstruction: 21.68,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Bhopal_Metro"
   },
