@@ -1,8 +1,8 @@
 export const metroData = [
   {
     city: "Delhi-NCR",
-    operational: 353.31,
-    underConstruction: 65.20,
+    operational: 394,
+    underConstruction: 112,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Delhi_Metro"
   },
@@ -57,7 +57,7 @@ export const metroData = [
   },
   {
     city: "Pune",
-    operational: 31.25,
+    operational: 32.97,
     underConstruction: 79.56,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Pune_Metro"
@@ -92,15 +92,15 @@ export const metroData = [
   },
   {
     city: "Navi Mumbai",
-    operational: 11.10,
+    operational: 23.4,
     underConstruction: 0,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Navi_Mumbai_Metro"
   },
   {
     city: "Agra",
-    operational: 5.20,
-    underConstruction: 24.47,
+    operational: 29.65,
+    underConstruction: 0,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Agra_Metro"
   },
@@ -113,22 +113,22 @@ export const metroData = [
   },
   {
     city: "Patna",
-    operational: 0,
-    underConstruction: 32.91,
+    operational: 4.3,
+    underConstruction: 3,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Patna_Metro"
   },
   {
     city: "Indore",
-    operational: 0,
-    underConstruction: 31.23,
+    operational: 6,
+    underConstruction: 27,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Indore_Metro"
   },
   {
     city: "Bhopal",
-    operational: 0,
-    underConstruction: 21.68,
+    operational: 16,
+    underConstruction: 13,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Bhopal_Metro"
   },
