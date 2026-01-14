@@ -15,7 +15,7 @@ export const metroData = [
   },
   {
     city: "Mumbai",
-    operational: 80.43,
+    operational: 80.03,
     underConstruction: 132.45,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Mumbai_Metro"
@@ -92,7 +92,7 @@ export const metroData = [
   },
   {
     city: "Navi Mumbai",
-    operational: 23.4,
+    operational: 11.1,
     underConstruction: 0,
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Navi_Mumbai_Metro"
