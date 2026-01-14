@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/shashank261/streetfrontier#readme",
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "bootstrap": "^5.3.8",
     "react": "^19.2.3",
     "react-bootstrap": "^2.10.10",
