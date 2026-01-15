@@ -37,11 +37,11 @@ streetfrontier/
     ├── data/
     │   └── metroData.js    # Metro systems dataset
     ├── pages/
-    │   ├── Home.jsx        # Homepage gateway
-    │   ├── Home.css        # Homepage styles
-    │   ├── MetroTracker.jsx # Metro tracking table
-    │   ├── Resources.jsx   # External links & resources
-    │   └── Glossary.jsx    # Transit terminology definitions
+    ├── Home.jsx        # Homepage gateway
+    ├── Home.css        # Homepage styles
+    ├── MetroTracker.jsx # Metro tracking table
+    ├── Resources.jsx   # External links & resources
+    └── Glossary.jsx    # Transit terminology definitions
     └── styles/
         └── swiss.css       # Global Swiss typography styles
 ```

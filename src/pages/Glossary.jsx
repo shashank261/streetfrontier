@@ -100,7 +100,7 @@ const Glossary = () => {
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>
 
-            <h1 className="swiss-title">Tech Glossary</h1>
+            <h1 className="swiss-title">Glossary</h1>
             <p className="swiss-subtitle">
                 A guide to the technical terms and jargon used in urban transit, categorized by infrastructure type.
             </p>
