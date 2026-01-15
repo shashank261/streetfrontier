@@ -7,15 +7,22 @@ const Resources = () => {
         {
             category: "Official Metro Authorities",
             links: [
+                { name: "Agra, Kanpur & Lucknow Metro (UPMRC)", url: "https://www.upmetrorail.com/" },
+                { name: "Ahmedabad & Surat Metro (GMRC)", url: "https://www.gujaratmetrorail.com/" },
+                { name: "Bengaluru Metro (BMRCL)", url: "https://www.bmrc.co.in/" },
+                { name: "Bhopal & Indore Metro (MPMRCL)", url: "https://www.mpmetrorail.com/" },
+                { name: "Chennai Metro (CMRL)", url: "https://chennaimetrorail.org/" },
                 { name: "Delhi Metro (DMRC)", url: "https://www.delhimetrorail.com/" },
+                { name: "Hyderabad Metro (L&T)", url: "https://www.ltmetro.com/" },
+                { name: "Jaipur Metro (JMRC)", url: "https://transport.rajasthan.gov.in/jmrc" },
+                { name: "Kochi Metro (KMRL)", url: "https://www.kochimetro.org/" },
+                { name: "Kolkata Metro", url: "https://mtp.indianrailways.gov.in/" },
                 { name: "Mumbai Metro (MMRDA)", url: "https://mmrda.maharashtra.gov.in/" },
                 { name: "Mumbai Metro One", url: "https://www.reliancemumbaimetro.com/" },
-                { name: "Bengaluru Metro (BMRCL)", url: "https://www.bmrc.co.in/" },
-                { name: "Chennai Metro (CMRL)", url: "https://chennaimetrorail.org/" },
-                { name: "Hyderabad Metro (L&T)", url: "https://www.ltmetro.com/" },
-                { name: "Kolkata Metro", url: "https://mtp.indianrailways.gov.in/" },
-                { name: "Ahmedabad Metro (GMRC)", url: "https://www.gujaratmetrorail.com/" },
-                { name: "Pune Metro", url: "https://www.punemetrorail.org/" }
+                { name: "Nagpur Metro (Maha Metro)", url: "https://www.metrorailnagpur.com/" },
+                { name: "Navi Mumbai Metro (CIDCO)", url: "https://cidco.maharashtra.gov.in/" },
+                { name: "Patna Metro (PMRCL)", url: "https://www.delhimetrorail.com/patna-metro" },
+                { name: "Pune Metro (Maha Metro)", url: "https://www.punemetrorail.org/" }
             ]
         }
     ];
