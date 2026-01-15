@@ -33,7 +33,7 @@ const Resources = () => {
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>
 
-            <h1 className="swiss-title">Resource Hub</h1>
+            <h1 className="swiss-title">Resources</h1>
             <p className="swiss-subtitle">
                 Official links, dashboards, and portals for Indian urban infrastructure.
             </p>

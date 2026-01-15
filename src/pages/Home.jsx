@@ -12,14 +12,14 @@ const gateways = [
         accent: 'linear-gradient(135deg, #ff3333 0%, #ff6b6b 100%)',
     },
     {
-        title: 'Resource Hub',
+        title: 'Resources',
         description: 'Access official links, dashboards, and metro authority resources for all Indian cities.',
         icon: Link2,
         path: '/resources',
         accent: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
     },
     {
-        title: 'Tech Glossary',
+        title: 'Glossary',
         description: 'Master the jargon: CBTC, gauges, rolling stock, signaling systems, and more.',
         icon: BookOpen,
         path: '/glossary',
