@@ -115,44 +115,53 @@ const BusFleetSize = () => {
                         <Form onSubmit={handleSearch}>
                             <Form.Group className="mb-4 position-relative">
                                 <Form.Label className="fw-bold mb-3">Search City</Form.Label>
-                                <div className="d-flex gap-2">
-                                    <div className="flex-grow-1 position-relative">
-                                        <Form.Control
-                                            type="text"
-                                            placeholder="Type city name (e.g. Delhi)..."
-                                            value={searchTerm}
-                                            onChange={(e) => {
-                                                setSearchTerm(e.target.value);
-                                                setSelectedCity(null);
-                                            }}
-                                            onKeyDown={handleKeyDown}
-                                            className="swiss-input"
-                                            autoComplete="off"
-                                        />
-                                        {showSuggestions && suggestions.length > 0 && (
-                                            <div className="autocomplete-dropdown shadow-lg">
-                                                {suggestions.map((city, idx) => (
-                                                    <div
-                                                        key={idx}
-                                                        className={`suggestion-item ${idx === activeIndex ? 'active' : ''}`}
-                                                        onClick={() => handleSelectCity(city)}
-                                                    >
-                                                        <span className="city-name">{city.City}</span>
-                                                        <span className="city-pop text-muted small ms-2">
-                                                            Pop: {city.Population.toLocaleString()}
-                                                        </span>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        )}
-                                    </div>
-                                    <Button type="submit" variant="dark" className="swiss-button">
-                                        <Search size={18} />
-                                    </Button>
-                                    <Button variant="outline-secondary" onClick={handleClear} className="swiss-button">
-                                        <RotateCcw size={18} />
-                                    </Button>
+                                <div className="swiss-search-group">
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="Type city name (e.g. Delhi)..."
+                                        value={searchTerm}
+                                        onChange={(e) => {
+                                            setSearchTerm(e.target.value);
+                                            setSelectedCity(null);
+                                        }}
+                                        onKeyDown={handleKeyDown}
+                                        className="swiss-input-seamless"
+                                        autoComplete="off"
+                                    />
+                                    {searchTerm && (
+                                        <button
+                                            type="button"
+                                            onClick={handleClear}
+                                            className="swiss-button-seamless reset-btn"
+                                            title="Clear search"
+                                        >
+                                            <RotateCcw size={20} />
+                                        </button>
+                                    )}
+                                    <button
+                                        type="submit"
+                                        className="swiss-button-seamless"
+                                        title="Search"
+                                    >
+                                        <Search size={22} />
+                                    </button>
                                 </div>
+                                {showSuggestions && suggestions.length > 0 && (
+                                    <div className="autocomplete-dropdown shadow-lg">
+                                        {suggestions.map((city, idx) => (
+                                            <div
+                                                key={idx}
+                                                className={`suggestion-item ${idx === activeIndex ? 'active' : ''}`}
+                                                onClick={() => handleSelectCity(city)}
+                                            >
+                                                <span className="city-name">{city.City}</span>
+                                                <span className="city-pop text-muted small ms-2">
+                                                    Pop: {city.Population.toLocaleString()}
+                                                </span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                                 <Form.Text className="text-muted mt-2 d-block">
                                     Guidelines: 60 buses/lakh (Pop &gt; 20L), 40 buses/lakh (Pop ≤ 20L)
                                 </Form.Text>
