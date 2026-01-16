@@ -66,7 +66,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2) 0%, transparent 60%);
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.2) 0%, transparent 60%);
 }
 
 .gateway-icon {
@@ -129,17 +129,120 @@
     .gateway-header {
         padding: 2rem 1.25rem;
     }
-    
+
     .gateway-icon {
         width: 40px;
         height: 40px;
     }
-    
+
     .gateway-body {
         padding: 1.5rem 1.25rem 1.25rem;
     }
-    
+
     .gateway-title {
         font-size: 1.2rem;
+    }
+}
+
+/* Autocomplete & Result Decorations */
+
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.suggestion-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #f8f9fa;
+    transition: background 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+    background: #f1f3f5;
+}
+
+.city-name {
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.recommendation-hero {
+    padding: 3rem 1rem;
+    background: #000;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.hero-fleet-count {
+    font-size: 6.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.hero-fleet-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.metric-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #f8f9fa;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 0.2em;
+}
+
+.overflow-visible {
+    overflow: visible !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.4s ease forwards;
+}
+
+@media (max-width: 576px) {
+    .hero-fleet-count {
+        font-size: 4.5rem;
     }
 }

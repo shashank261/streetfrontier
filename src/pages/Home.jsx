@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Train, Link2, BookOpen, ArrowRight } from 'lucide-react';
+import { Train, Link2, BookOpen, ArrowRight, Bus } from 'lucide-react';
 import './Home.css';
 
 const gateways = [
@@ -10,6 +10,13 @@ const gateways = [
         icon: Train,
         path: '/metro-tracker',
         accent: 'linear-gradient(135deg, #ff3333 0%, #ff6b6b 100%)',
+    },
+    {
+        title: 'Bus Fleet Guide',
+        description: 'Calculate recommended bus fleet sizes for Indian cities based on MoHUA population guidelines.',
+        icon: Bus,
+        path: '/bus-fleet-size',
+        accent: 'linear-gradient(135deg, #0984e3 0%, #74b9ff 100%)',
     },
     {
         title: 'Resources',
