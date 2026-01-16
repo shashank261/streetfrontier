@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Resources = () => {
     const resources = [
@@ -29,6 +30,10 @@ const Resources = () => {
 
     return (
         <Container className="swiss-container">
+            <SEO
+                title="Transit Resources | Official Metro & Bus Authorities"
+                description="Access official links, dashboards, and metro authority resources for all Indian cities."
+            />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>

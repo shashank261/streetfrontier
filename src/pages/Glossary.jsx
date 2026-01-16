@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Glossary = () => {
     const glossaryData = [
@@ -96,6 +97,10 @@ const Glossary = () => {
 
     return (
         <Container className="swiss-container">
+            <SEO
+                title="Transit Glossary | Technical Jargon Explained"
+                description="Master the jargon: CBTC, gauges, rolling stock, signaling systems, and more."
+            />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>
