@@ -2,6 +2,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Train, Link2, BookOpen, ArrowRight, Bus } from 'lucide-react';
 import SEO from '../components/SEO';
+
 import './Home.css';
 
 const gateways = [
