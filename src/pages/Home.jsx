@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Train, Link2, BookOpen, ArrowRight, Bus } from 'lucide-react';
+import SEO from '../components/SEO';
 import './Home.css';
 
 const gateways = [
@@ -38,6 +39,10 @@ const Home = () => {
     return (
         <div className="home-page">
             <Container className="swiss-container">
+                <SEO
+                    title="Streetfrontier Hub | India's Urban Transit Gateway"
+                    description="Your gateway to India's urban transit infrastructure. Track metro progress and calculate bus fleet sizes."
+                />
                 {/* Hero Section */}
                 <Row className="justify-content-center text-center mb-5">
                     <Col lg={10}>

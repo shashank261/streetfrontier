@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Search, RotateCcw, Bus, Users, Info } from 'lucide-react';
 import cityData from '../data/city-population.json';
+import SEO from '../components/SEO';
 
 const BusFleetSize = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -92,6 +93,10 @@ const BusFleetSize = () => {
 
     return (
         <Container className="swiss-container">
+            <SEO
+                title="Bus Fleet Size Calculator | MoHUA Guidelines"
+                description="Calculate the MoHUA INDIA recommended bus fleet strength based on city population and urbanization trends."
+            />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>

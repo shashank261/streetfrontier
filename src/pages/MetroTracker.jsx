@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Table, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { metroData } from '../data/metroData';
+import SEO from '../components/SEO';
 
 const MetroTracker = () => {
     // Sort by operational length desc
@@ -14,6 +15,10 @@ const MetroTracker = () => {
 
     return (
         <Container className="swiss-container">
+            <SEO
+                title="Metro Train Tracker | Indian City Metro Progress"
+                description="Mapping the growth of metro rail networks across Indian cities with live operational data."
+            />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
             </div>
