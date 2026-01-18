@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Search, RotateCcw, Bus, Users, Info } from 'lucide-react';
+import { useSearchParams, Link } from 'react-router-dom';
+import { Search, RotateCcw, Bus, Users, Info, Share2, Check } from 'lucide-react';
 import cityData from '../data/city-population.json';
 
 import SEO from '../components/SEO';
@@ -14,6 +14,21 @@ const BusFleetSize = () => {
     const [suggestions, setSuggestions] = useState([]);
     const [showSuggestions, setShowSuggestions] = useState(false);
     const [activeIndex, setActiveIndex] = useState(-1);
+    const [searchParams, setSearchParams] = useSearchParams();
+    const [copied, setCopied] = useState(false);
+
+    // Initial load from query parameter
+    useEffect(() => {
+        const cityParam = searchParams.get('city');
+        if (cityParam && !selectedCity) {
+            const city = cityData.find(c => c.City.toLowerCase() === cityParam.toLowerCase());
+            if (city) {
+                setSearchTerm(city.City);
+                setSelectedCity(city);
+                calculateFleet(city.Population);
+            }
+        }
+    }, []);
 
     useEffect(() => {
         if (searchTerm.length > 1 && !selectedCity) {
@@ -33,6 +48,7 @@ const BusFleetSize = () => {
         setSelectedCity(city);
         setShowSuggestions(false);
         calculateFleet(city.Population);
+        setSearchParams({ city: city.City });
     };
 
     const handleKeyDown = (e) => {
@@ -91,6 +107,15 @@ const BusFleetSize = () => {
         setSuggestions([]);
         setShowSuggestions(false);
         setActiveIndex(-1);
+        setSearchParams({});
+    };
+
+    const handleShare = () => {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        });
     };
 
     return (
@@ -171,8 +196,15 @@ const BusFleetSize = () => {
                         {result && selectedCity && (
                             <div className="result-section mt-4 pt-4 border-top animate-fade-in text-center">
                                 <div className="recommendation-hero mb-4">
-                                    <div className="hero-fleet-count">
+                                    <div className="hero-fleet-count position-relative">
                                         {result.count2026}
+                                        <button
+                                            className="share-btn-floating"
+                                            onClick={handleShare}
+                                            title="Share this city data"
+                                        >
+                                            {copied ? <Check size={18} className="text-success" /> : <Share2 size={18} />}
+                                        </button>
                                     </div>
                                     <div className="hero-fleet-label text-uppercase letter-spacing-2 d-flex align-items-center justify-content-center gap-2">
                                         <Bus size={20} /> RECOMMENDED 2026 FLEET
