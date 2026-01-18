@@ -200,6 +200,27 @@
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+.share-btn-floating {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.share-btn-floating:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
 .hero-fleet-label {
     font-size: 0.9rem;
     font-weight: 600;
