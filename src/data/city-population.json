@@ -1,17 +1,5 @@
 [
   {
-    "City": "(a) In 1951, the following towns of Bombay Suburban district were merged with Greater Bombay.",
-    "Population": 1841488
-  },
-  {
-    "City": "1 GB-A (CT)",
-    "Population": 7297
-  },
-  {
-    "City": "2",
-    "Population": 377106125
-  },
-  {
     "City": "24 AS-C (CT)",
     "Population": 6648
   },
@@ -292,7 +280,7 @@
     "Population": 20384
   },
   {
-    "City": "Ahmadabad (M Corp. + OG) (Part)",
+    "City": "Ahmadabad (M Corp. + OG)",
     "Population": 55987
   },
   {
@@ -1044,7 +1032,7 @@
     "Population": 5165
   },
   {
-    "City": "Amlai (CT) (Part)",
+    "City": "Amlai (CT)",
     "Population": 9677
   },
   {
@@ -1112,7 +1100,7 @@
     "Population": 117967
   },
   {
-    "City": "Amritsar (M Corp. + OG) (Part)",
+    "City": "Amritsar (M Corp. + OG)",
     "Population": 1155664
   },
   {
@@ -1208,7 +1196,7 @@
     "Population": 15247
   },
   {
-    "City": "Anantapur (M Corp. + OG) (Part)",
+    "City": "Anantapur (M Corp. + OG)",
     "Population": 6157
   },
   {
@@ -1224,7 +1212,7 @@
     "Population": 6892
   },
   {
-    "City": "Anantnag (M Cl + OG) (Part)",
+    "City": "Anantnag (M Cl + OG)",
     "Population": 394
   },
   {
@@ -2380,7 +2368,7 @@
     "Population": 52493
   },
   {
-    "City": "Badvel (M) (Part)",
+    "City": "Badvel (M)",
     "Population": 41807
   },
   {
@@ -3928,11 +3916,11 @@
     "Population": 5406
   },
   {
-    "City": "BBMP (M Corp. + OG) (Part)",
+    "City": "BBMP (M Corp. + OG)",
     "Population": 8443675
   },
   {
-    "City": "BBMP (M Corp.) (Part)",
+    "City": "BBMP (M Corp.)",
     "Population": 8443675
   },
   {
@@ -4088,7 +4076,7 @@
     "Population": 11297
   },
   {
-    "City": "Bellampalle (M) (Part)",
+    "City": "Bellampalle (M)",
     "Population": 53958
   },
   {
@@ -4348,7 +4336,7 @@
     "Population": 60565
   },
   {
-    "City": "Bhadravati@",
+    "City": "Bhadravati",
     "Population": 151102
   },
   {
@@ -4732,15 +4720,15 @@
     "Population": 9022
   },
   {
-    "City": "Bhilai Charoda (M) (Part)",
+    "City": "Bhilai Charoda (M)",
     "Population": 85310
   },
   {
-    "City": "Bhilai Nagar (M Corp. + OG) (Part)",
+    "City": "Bhilai Nagar (M Corp. + OG)",
     "Population": 9123
   },
   {
-    "City": "Bhilai Nagar (M Corp.) (Part)",
+    "City": "Bhilai Nagar (M Corp.)",
     "Population": 9123
   },
   {
@@ -5236,11 +5224,11 @@
     "Population": 13654
   },
   {
-    "City": "Bilaspur (M Corp. + OG) (Part)",
+    "City": "Bilaspur (M Corp. + OG)",
     "Population": 349107
   },
   {
-    "City": "Bilaspur (M Corp.) (Part)",
+    "City": "Bilaspur (M Corp.)",
     "Population": 327163
   },
   {
@@ -5816,7 +5804,7 @@
     "Population": 67431
   },
   {
-    "City": "Bundi (M + OG) (Part)",
+    "City": "Bundi (M + OG)",
     "Population": 103286
   },
   {
@@ -5984,7 +5972,7 @@
     "Population": 4876
   },
   {
-    "City": "Chak Bankola (CT) (Part)",
+    "City": "Chak Bankola (CT)",
     "Population": 11527
   },
   {
@@ -7196,7 +7184,7 @@
     "Population": 30858
   },
   {
-    "City": "Chirala (M + OG) (Part)",
+    "City": "Chirala (M + OG)",
     "Population": 3564
   },
   {
@@ -7232,7 +7220,7 @@
     "Population": 45508
   },
   {
-    "City": "Chirmiri (M.Corp) (Part)",
+    "City": "Chirmiri (M.Corp)",
     "Population": 69307
   },
   {
@@ -8096,7 +8084,7 @@
     "Population": 16349831
   },
   {
-    "City": "Delhi Cantonment (CB) (Part)",
+    "City": "Delhi Cantonment (CB)",
     "Population": 8647
   },
   {
@@ -8288,7 +8276,7 @@
     "Population": 28051
   },
   {
-    "City": "Devaprayag (NP) (Part)",
+    "City": "Devaprayag (NP)",
     "Population": 716
   },
   {
@@ -8784,7 +8772,7 @@
     "Population": 27237
   },
   {
-    "City": "Dibrugarh (MB + OG) (Part)",
+    "City": "Dibrugarh (MB + OG)",
     "Population": 144063
   },
   {
@@ -8960,7 +8948,7 @@
     "Population": 11188
   },
   {
-    "City": "DMC (U) (Part)",
+    "City": "DMC (U)",
     "Population": 469294
   },
   {
@@ -9848,7 +9836,7 @@
     "Population": 5480
   },
   {
-    "City": "Fulkumari (Part) (CT)",
+    "City": "Fulkumari (CT)",
     "Population": 11160
   },
   {
@@ -10480,11 +10468,11 @@
     "Population": 14893
   },
   {
-    "City": "GHMC (M Corp. + OG) (Part)",
+    "City": "GHMC (M Corp. + OG)",
     "Population": 2523
   },
   {
-    "City": "GHMC (M Corp.) (Part)",
+    "City": "GHMC (M Corp.)",
     "Population": 229823
   },
   {
@@ -10728,7 +10716,7 @@
     "Population": 7503
   },
   {
-    "City": "Gohpur (TC) (Part)",
+    "City": "Gohpur (TC)",
     "Population": 8038
   },
   {
@@ -10964,7 +10952,7 @@
     "Population": 5728
   },
   {
-    "City": "Greater Mumbai (M Corp.) (Part)",
+    "City": "Greater Mumbai (M Corp.)",
     "Population": 3085411
   },
   {
@@ -11036,7 +11024,7 @@
     "Population": 11969
   },
   {
-    "City": "Gudur (M + OG) (Part)",
+    "City": "Gudur (M + OG)",
     "Population": 687
   },
   {
@@ -11232,11 +11220,11 @@
     "Population": 10900
   },
   {
-    "City": "Guwahati (M Corp. + OG) (Part)",
+    "City": "Guwahati (M Corp. + OG)",
     "Population": 528563
   },
   {
-    "City": "Guwahati (M Corp.) (Part)",
+    "City": "Guwahati (M Corp.)",
     "Population": 523581
   },
   {
@@ -11244,7 +11232,7 @@
     "Population": 957352
   },
   {
-    "City": "GVMC (Part)",
+    "City": "GVMC",
     "Population": 25560
   },
   {
@@ -12148,7 +12136,7 @@
     "Population": 7697
   },
   {
-    "City": "Hyderabad U.A.  @",
+    "City": "Hyderabad U.A.",
     "Population": 7677018
   },
   {
@@ -12328,11 +12316,11 @@
     "Population": 4534
   },
   {
-    "City": "Indore (M Corp. + OG) (Part)",
+    "City": "Indore (M Corp. + OG)",
     "Population": 1992422
   },
   {
-    "City": "Indore (M Corp.) (Part)",
+    "City": "Indore (M Corp.)",
     "Population": 1964086
   },
   {
@@ -12472,11 +12460,11 @@
     "Population": 8253
   },
   {
-    "City": "Jabalpur (M Corp. + OG) (Part)",
+    "City": "Jabalpur (M Corp. + OG)",
     "Population": 12385
   },
   {
-    "City": "Jabalpur (M Corp.) (Part)",
+    "City": "Jabalpur (M Corp.)",
     "Population": 1055525
   },
   {
@@ -12648,7 +12636,7 @@
     "Population": 6342
   },
   {
-    "City": "Jaipur (M Corp.) (Part)",
+    "City": "Jaipur (M Corp.)",
     "Population": 123313
   },
   {
@@ -12764,7 +12752,7 @@
     "Population": 6376
   },
   {
-    "City": "Jalandhar (M Corp. + OG) (Part)",
+    "City": "Jalandhar (M Corp. + OG)",
     "Population": 748
   },
   {
@@ -12960,7 +12948,7 @@
     "Population": 87357
   },
   {
-    "City": "Jamul (M) (Part)",
+    "City": "Jamul (M)",
     "Population": 22811
   },
   {
@@ -12996,7 +12984,7 @@
     "Population": 29232
   },
   {
-    "City": "Jandli (Part) (113) (CT)",
+    "City": "Jandli (113) (CT)",
     "Population": 14397
   },
   {
@@ -13540,7 +13528,7 @@
     "Population": 9009
   },
   {
-    "City": "Jorhat (MB + OG) (Part)",
+    "City": "Jorhat (MB + OG)",
     "Population": 97946
   },
   {
@@ -13720,11 +13708,11 @@
     "Population": 10430
   },
   {
-    "City": "Kadapa (M Corp. + OG) (Part)",
+    "City": "Kadapa (M Corp. + OG)",
     "Population": 23404
   },
   {
-    "City": "Kadapa (M Corp.) (Part)",
+    "City": "Kadapa (M Corp.)",
     "Population": 22029
   },
   {
@@ -13948,7 +13936,7 @@
     "Population": 17949
   },
   {
-    "City": "Kakinada (M Corp. + OG) (Part)",
+    "City": "Kakinada (M Corp. + OG)",
     "Population": 312538
   },
   {
@@ -14476,7 +14464,7 @@
     "Population": 16353
   },
   {
-    "City": "Kandasar (Part) (CT)",
+    "City": "Kandasar (CT)",
     "Population": 6668
   },
   {
@@ -14996,7 +14984,7 @@
     "Population": 56854
   },
   {
-    "City": "Karimnagar (M Corp. + OG) (Part)",
+    "City": "Karimnagar (M Corp. + OG)",
     "Population": 6164
   },
   {
@@ -15576,7 +15564,7 @@
     "Population": 15731
   },
   {
-    "City": "Kendra Khottamdi (CT) (Part)",
+    "City": "Kendra Khottamdi (CT)",
     "Population": 6875
   },
   {
@@ -15800,7 +15788,7 @@
     "Population": 94191
   },
   {
-    "City": "Khammam (M + OG) (Part)",
+    "City": "Khammam (M + OG)",
     "Population": 184210
   },
   {
@@ -16512,11 +16500,11 @@
     "Population": 106843
   },
   {
-    "City": "Kochi (M Corp. + OG) (Part)",
+    "City": "Kochi (M Corp. + OG)",
     "Population": 274350
   },
   {
-    "City": "Kochi (M Corp.) (Part)",
+    "City": "Kochi (M Corp.)",
     "Population": 336048
   },
   {
@@ -16732,7 +16720,7 @@
     "Population": 8054
   },
   {
-    "City": "Kollam (M Corp. + OG) (Part)",
+    "City": "Kollam (M Corp. + OG)",
     "Population": 350131
   },
   {
@@ -16760,7 +16748,7 @@
     "Population": 2345
   },
   {
-    "City": "Kolvi @ Mandi Rajendrapur (CT)",
+    "City": "Kolvi Mandi Rajendrapur (CT)",
     "Population": 8584
   },
   {
@@ -16976,11 +16964,11 @@
     "Population": 17618
   },
   {
-    "City": "Korba (M Corp. + OG) (Part)",
+    "City": "Korba (M Corp. + OG)",
     "Population": 224680
   },
   {
-    "City": "Korba (M Corp.) (Part)",
+    "City": "Korba (M Corp.)",
     "Population": 222817
   },
   {
@@ -17444,7 +17432,7 @@
     "Population": 20096
   },
   {
-    "City": "Kulad (Part) (CT) ",
+    "City": "Kulad (CT) ",
     "Population": 4256
   },
   {
@@ -17580,7 +17568,7 @@
     "Population": 9546
   },
   {
-    "City": "Kumhari (M) (Part)",
+    "City": "Kumhari (M)",
     "Population": 8600
   },
   {
@@ -17756,11 +17744,11 @@
     "Population": 484327
   },
   {
-    "City": "Kurnool (M Corp. + OG) (Part)",
+    "City": "Kurnool (M Corp. + OG)",
     "Population": 312835
   },
   {
-    "City": "Kurnool (M Corp.) (Part)",
+    "City": "Kurnool (M Corp.)",
     "Population": 296097
   },
   {
@@ -19136,7 +19124,7 @@
     "Population": 8134
   },
   {
-    "City": "Makrana (M + OG) (Part)",
+    "City": "Makrana (M + OG)",
     "Population": 93094
   },
   {
@@ -19600,7 +19588,7 @@
     "Population": 137358
   },
   {
-    "City": "Mandya @",
+    "City": "Mandya",
     "Population": 137358
   },
   {
@@ -20324,7 +20312,7 @@
     "Population": 29716
   },
   {
-    "City": "Meenambakkam (TP + OG) (Part)",
+    "City": "Meenambakkam (TP + OG)",
     "Population": 7070
   },
   {
@@ -22664,7 +22652,7 @@
     "Population": 8778
   },
   {
-    "City": "NDMC (Part)",
+    "City": "NDMC",
     "Population": 35113
   },
   {
@@ -23340,7 +23328,7 @@
     "Population": 26273
   },
   {
-    "City": "Ongole (M + OG) (Part)",
+    "City": "Ongole (M + OG)",
     "Population": 204746
   },
   {
@@ -23712,7 +23700,7 @@
     "Population": 5749
   },
   {
-    "City": "Palamaner (M + OG) (Part)",
+    "City": "Palamaner (M + OG)",
     "Population": 51450
   },
   {
@@ -23888,7 +23876,7 @@
     "Population": 9580
   },
   {
-    "City": "Pallavaram (M + OG) (Part)",
+    "City": "Pallavaram (M + OG)",
     "Population": 18567
   },
   {
@@ -23976,7 +23964,7 @@
     "Population": 128730
   },
   {
-    "City": "Palwal (Rural) (Part) (73) (CT)",
+    "City": "Palwal (Rural) (73) (CT)",
     "Population": 23072
   },
   {
@@ -24364,7 +24352,7 @@
     "Population": 36270
   },
   {
-    "City": "Parashkol (CT) (Part)",
+    "City": "Parashkol (CT)",
     "Population": 10367
   },
   {
@@ -26384,7 +26372,7 @@
     "Population": 51362
   },
   {
-    "City": "Rajahmundry (M Corp. + OG) (Part)",
+    "City": "Rajahmundry (M Corp. + OG)",
     "Population": 34502
   },
   {
@@ -26596,7 +26584,7 @@
     "Population": 43657
   },
   {
-    "City": "Ramagundam (M + OG) (Part)",
+    "City": "Ramagundam (M + OG)",
     "Population": 5420
   },
   {
@@ -27584,7 +27572,7 @@
     "Population": 4496
   },
   {
-    "City": "Sagolband (Part) (CT)",
+    "City": "Sagolband (CT)",
     "Population": 4964
   },
   {
@@ -29596,7 +29584,7 @@
     "Population": 229136
   },
   {
-    "City": "Siliguri (M Corp.) (Part)",
+    "City": "Siliguri (M Corp.)",
     "Population": 218718
   },
   {
@@ -30208,7 +30196,7 @@
     "Population": 8241
   },
   {
-    "City": "Srikakulam (M + OG) (Part)",
+    "City": "Srikakulam (M + OG)",
     "Population": 2577
   },
   {
@@ -30240,7 +30228,7 @@
     "Population": 13971
   },
   {
-    "City": "Srinagar (M Corp. + OG) (Part)",
+    "City": "Srinagar (M Corp. + OG)",
     "Population": 6297
   },
   {
@@ -30548,7 +30536,7 @@
     "Population": 6743
   },
   {
-    "City": "Surat (M Corp. + OG) (Part)",
+    "City": "Surat (M Corp. + OG)",
     "Population": 33813
   },
   {
@@ -31540,7 +31528,7 @@
     "Population": 56074
   },
   {
-    "City": "Thiruvananthapuram (M Corp. + OG) (Part)",
+    "City": "Thiruvananthapuram (M Corp. + OG)",
     "Population": 25736
   },
   {
@@ -31912,7 +31900,7 @@
     "Population": 461900
   },
   {
-    "City": "Tirupati (M Corp. + OG) (Part)",
+    "City": "Tirupati (M Corp. + OG)",
     "Population": 293421
   },
   {
@@ -31960,7 +31948,7 @@
     "Population": 145278
   },
   {
-    "City": "Tiruverkadu (M + OG) (Part)",
+    "City": "Tiruverkadu (M + OG)",
     "Population": 1874
   },
   {
@@ -32168,7 +32156,7 @@
     "Population": 302143
   },
   {
-    "City": "Tumkur @",
+    "City": "Tumkur",
     "Population": 302143
   },
   {
@@ -33528,15 +33516,15 @@
     "Population": 15887
   },
   {
-    "City": "Vijayawada (M Corp. + OG) (Part)",
+    "City": "Vijayawada (M Corp. + OG)",
     "Population": 22927
   },
   {
-    "City": "Vijayawada (M Corp.) (Part)",
+    "City": "Vijayawada (M Corp.)",
     "Population": 12552
   },
   {
-    "City": "Vijayawada U.A.@",
+    "City": "Vijayawada U.A.",
     "Population": 1476931
   },
   {
@@ -33696,7 +33684,7 @@
     "Population": 14779
   },
   {
-    "City": "Visakhapatnam @",
+    "City": "Visakhapatnam",
     "Population": 1728128
   },
   {
@@ -33884,11 +33872,11 @@
     "Population": 43881
   },
   {
-    "City": "Warangal (M.Corp. + OG) (Part)",
+    "City": "Warangal (M.Corp. + OG)",
     "Population": 11451
   },
   {
-    "City": "Warangal (M.Corp.) (Part)",
+    "City": "Warangal (M.Corp.)",
     "Population": 297078
   },
   {
