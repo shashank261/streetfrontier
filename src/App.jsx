@@ -5,6 +5,7 @@ import MetroTracker from './pages/MetroTracker';
 import Resources from './pages/Resources';
 import Glossary from './pages/Glossary';
 import BusFleetSize from './pages/BusFleetSize';
+import PedestrianGuidelines from './pages/PedestrianGuidelines';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/resources" element={<Resources />} />
                     <Route path="/glossary" element={<Glossary />} />
                     <Route path="/bus-fleet-size" element={<BusFleetSize />} />
+                    <Route path="/pedestrian-guidelines" element={<PedestrianGuidelines />} />
                 </Routes>
             </Router>
             <Analytics />

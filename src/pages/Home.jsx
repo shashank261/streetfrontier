@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Train, Link2, BookOpen, ArrowRight, Bus } from 'lucide-react';
+import { Train, Link2, BookOpen, ArrowRight, Bus, Footprints } from 'lucide-react';
 import SEO from '../components/SEO';
 
 import './Home.css';
@@ -33,6 +33,13 @@ const gateways = [
         icon: BookOpen,
         path: '/glossary',
         accent: 'linear-gradient(135deg, #2d3436 0%, #636e72 100%)',
+    },
+    {
+        title: 'Pedestrian Safety',
+        description: 'Safety guidelines and tips for walking in apartment complexes and parking zones.',
+        icon: Footprints,
+        path: '/pedestrian-guidelines',
+        accent: 'linear-gradient(135deg, #00b894 0%, #00cec9 100%)',
     },
 ];
 
