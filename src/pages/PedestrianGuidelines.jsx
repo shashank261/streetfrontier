@@ -42,22 +42,7 @@ const PedestrianGuidelines = () => {
             </p>
 
 
-            {/* Core Problem Alert */}
-            <Row className="justify-content-center mb-5 mt-5">
-                <Col lg={8}>
-                    <Alert variant="danger" className="border-0 shadow-sm">
-                        <div className="d-flex align-items-start">
-                            <AlertTriangle className="text-danger me-3 mt-1" size={24} />
-                            <div>
-                                <Alert.Heading className="h5">The Core Problem</Alert.Heading>
-                                <p className="mb-0">
-                                    Many accidents involving children occur in residential parking areas (basement and ground level) due to design failures, blind spots, high vehicle speeds, and driver error. These spaces are often mixed-use without clear segregation between vehicles and people.
-                                </p>
-                            </div>
-                        </div>
-                    </Alert>
-                </Col>
-            </Row>
+
 
             {/* Safety Score Calculator */}
             <Card className="mb-5 border-0 shadow-sm overflow-hidden transform-hover">
@@ -141,7 +126,9 @@ const PedestrianGuidelines = () => {
                     <Card className="h-100 border-0 shadow-sm">
                         <Card.Body>
                             <div className="mb-3 text-center">
-                                <img src="/speed_calming_illustration.png" alt="Speed Calming" className="img-fluid rounded mb-3" style={{ maxHeight: '150px' }} />
+                                <div className="d-inline-block p-3 rounded-circle bg-light mb-3">
+                                    <Car className="text-primary" size={32} />
+                                </div>
                                 <h3 className="h5 fw-bold mb-0">Speed Calming</h3>
                             </div>
                             <p className="text-muted">
@@ -159,7 +146,9 @@ const PedestrianGuidelines = () => {
                     <Card className="h-100 border-0 shadow-sm">
                         <Card.Body>
                             <div className="mb-3 text-center">
-                                <img src="/blind_spot_mirror.png" alt="Blind Spot Mirror" className="img-fluid rounded mb-3" style={{ maxHeight: '150px' }} />
+                                <div className="d-inline-block p-3 rounded-circle bg-light mb-3">
+                                    <Eye className="text-primary" size={32} />
+                                </div>
                                 <h3 className="h5 fw-bold mb-0">Visibility & Blind Spots</h3>
                             </div>
                             <p className="text-muted">
@@ -177,7 +166,9 @@ const PedestrianGuidelines = () => {
                     <Card className="h-100 border-0 shadow-sm">
                         <Card.Body>
                             <div className="mb-3 text-center">
-                                <img src="/pedestrian_walkway.png" alt="Pedestrian Walkway" className="img-fluid rounded mb-3" style={{ maxHeight: '150px' }} />
+                                <div className="d-inline-block p-3 rounded-circle bg-light mb-3">
+                                    <Footprints className="text-primary" size={32} />
+                                </div>
                                 <h3 className="h5 fw-bold mb-0">Pedestrian Segregation</h3>
                             </div>
                             <p className="text-muted">
@@ -199,7 +190,9 @@ const PedestrianGuidelines = () => {
                     <Card className="h-100 border-0 shadow-sm">
                         <Card.Body>
                             <div className="mb-3 text-center">
-                                <img src="/operational_rules_illustration.png" alt="Operational Rules Signage" className="img-fluid rounded mb-3" style={{ maxHeight: '150px' }} />
+                                <div className="d-inline-block p-3 rounded-circle bg-light mb-3">
+                                    <ClipboardList className="text-primary" size={32} />
+                                </div>
                                 <h3 className="h5 fw-bold mb-0">Operational Rules</h3>
                             </div>
                             <p className="text-muted">
@@ -256,6 +249,70 @@ const PedestrianGuidelines = () => {
                 </Col>
             </Row>
 
+            <h2 className="h3 fw-bold mb-4" style={{ color: '#2d3436' }}>Driver Responsibility Guide</h2>
+            <Row className="g-4 mb-5">
+                <Col md={6}>
+                    <Card className="h-100 border-0 shadow-sm">
+                        <Card.Body className="d-flex align-items-start">
+                            <div className="me-3 text-primary">
+                                <Car size={24} />
+                            </div>
+                            <div>
+                                <h4 className="h6 fw-bold mb-2">The "Walk-Around" Rule</h4>
+                                <p className="text-muted small mb-0">
+                                    Before getting into your car (especially SUVs), walk around it once to ensure no children are playing near the wheels or bumpers.
+                                </p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col md={6}>
+                    <Card className="h-100 border-0 shadow-sm">
+                        <Card.Body className="d-flex align-items-start">
+                            <div className="me-3 text-warning">
+                                <Eye size={24} />
+                            </div>
+                            <div>
+                                <h4 className="h6 fw-bold mb-2">Check A-Pillar Blind Spots</h4>
+                                <p className="text-muted small mb-0">
+                                    Thick A-pillars can hide a small child. Lean forward and check both sides before turning at corners or intersections.
+                                </p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col md={6}>
+                    <Card className="h-100 border-0 shadow-sm">
+                        <Card.Body className="d-flex align-items-start">
+                            <div className="me-3 text-success">
+                                <CheckCircle size={24} />
+                            </div>
+                            <div>
+                                <h4 className="h6 fw-bold mb-2">Reverse Park Only</h4>
+                                <p className="text-muted small mb-0">
+                                    Always reverse into parking spots. This ensures you have full forward visibility when leaving, which is safer for pedestrians.
+                                </p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col md={6}>
+                    <Card className="h-100 border-0 shadow-sm">
+                        <Card.Body className="d-flex align-items-start">
+                            <div className="me-3 text-info">
+                                <Shield size={24} />
+                            </div>
+                            <div>
+                                <h4 className="h6 fw-bold mb-2">Windows Down</h4>
+                                <p className="text-muted small mb-0">
+                                    In parking lots, roll down your windows. You might hear a child's voice or footsteps before you see them.
+                                </p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
             <h2 className="h3 fw-bold mb-4" style={{ color: '#2d3436' }}>Parent & Child Safety Tips</h2>
             <Row className="mb-5">
                 <Col md={12}>
@@ -281,8 +338,10 @@ const PedestrianGuidelines = () => {
                                         <p className="mb-0 text-muted"><strong>Be Bright:</strong> Prefer bright-colored clothing for kids when measuring them walking in the evenings.</p>
                                     </div>
                                 </Col>
-                                <Col md={4} className="text-center d-none d-md-block">
-                                    <img src="/parent_child_safety.png" alt="Parent and Child Safety" className="img-fluid rounded-circle shadow-sm" style={{ maxHeight: '200px' }} />
+                                <Col md={4} className="text-center d-none d-md-flex align-items-center justify-content-center">
+                                    <div className="p-5 rounded-circle bg-warning bg-opacity-10">
+                                        <Baby className="text-warning" size={80} />
+                                    </div>
                                 </Col>
                             </Row>
                         </Card.Body>
