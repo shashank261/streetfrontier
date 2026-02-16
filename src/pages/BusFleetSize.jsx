@@ -118,11 +118,23 @@ const BusFleetSize = () => {
         });
     };
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Bus Fleet Size Calculator",
+        "description": "Calculate the MoHUA INDIA recommended bus fleet strength based on city population.",
+        "url": "https://hub.streetfrontier.com/bus-fleet-size",
+        "applicationCategory": "Reference",
+        "operatingSystem": "All"
+    };
+
     return (
         <Container className="swiss-container">
             <SEO
                 title="Bus Fleet Size Calculator | MoHUA Guidelines"
                 description="Calculate the MoHUA INDIA recommended bus fleet strength based on city population and urbanization trends."
+                url="https://hub.streetfrontier.com/bus-fleet-size"
+                schema={schema}
             />
 
             <div className="mb-4">
