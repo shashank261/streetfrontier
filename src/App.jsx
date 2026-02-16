@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
+import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
 import MetroTracker from './pages/MetroTracker';
 import Resources from './pages/Resources';
@@ -9,7 +10,7 @@ import PedestrianGuidelines from './pages/PedestrianGuidelines';
 
 function App() {
     return (
-        <>
+        <HelmetProvider>
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -21,7 +22,7 @@ function App() {
                 </Routes>
             </Router>
             <Analytics />
-        </>
+        </HelmetProvider>
     );
 }
 

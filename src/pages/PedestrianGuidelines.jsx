@@ -25,11 +25,38 @@ const PedestrianGuidelines = () => {
         return 'danger';
     };
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Apartment Pedestrian Safety Guidelines",
+        "description": "Safety guidelines and architectural interventions to protect pedestrians and children in apartment parking areas.",
+        "image": "https://hub.streetfrontier.com/parent_child_safety.png",
+        "author": {
+            "@type": "Organization",
+            "name": "Streetfrontier Hub"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Streetfrontier Hub",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://hub.streetfrontier.com/logo.jpg"
+            }
+        },
+        "datePublished": "2024-01-01",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://hub.streetfrontier.com/pedestrian-guidelines"
+        }
+    };
+
     return (
         <Container className="swiss-container">
             <SEO
                 title="Apartment Pedestrian Safety Guidelines | Streetfrontier Hub"
                 description="Safety guidelines and architectural interventions to protect pedestrians and children in apartment parking areas."
+                url="https://hub.streetfrontier.com/pedestrian-guidelines"
+                schema={schema}
             />
 
             <div className="mb-4">

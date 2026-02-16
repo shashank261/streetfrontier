@@ -1,41 +1,46 @@
-import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
-const SEO = ({ title, description }) => {
-    useEffect(() => {
-        // Update Title
-        if (title) {
-            document.title = title;
+const SEO = ({ title, description, image, url, schema, canonical }) => {
+    const siteTitle = "Streetfrontier Hub";
+    const defaultDescription = "A community driven platform focused on India’s urban and transit infrastructure.";
+    const defaultImage = "https://hub.streetfrontier.com/logo.jpg";
+    const siteUrl = "https://hub.streetfrontier.com";
 
-            // Update Primary Meta Title
-            const metaTitle = document.querySelector('meta[name="title"]');
-            if (metaTitle) metaTitle.setAttribute('content', title);
+    const currentTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+    const currentDescription = description || defaultDescription;
+    const currentImage = image || defaultImage;
+    const currentUrl = url || siteUrl;
+    const canonicalUrl = canonical || currentUrl;
 
-            // Update Open Graph Title
-            const ogTitle = document.querySelector('meta[property="og:title"]');
-            if (ogTitle) ogTitle.setAttribute('content', title);
+    return (
+        <Helmet>
+            {/* Standard metadata */}
+            <title>{currentTitle}</title>
+            <meta name="description" content={currentDescription} />
+            <link rel="canonical" href={canonicalUrl} />
 
-            // Update Twitter Title
-            const twitterTitle = document.querySelector('meta[name="twitter:title"]');
-            if (twitterTitle) twitterTitle.setAttribute('content', title);
-        }
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={currentUrl} />
+            <meta property="og:title" content={currentTitle} />
+            <meta property="og:description" content={currentDescription} />
+            <meta property="og:image" content={currentImage} />
 
-        // Update Description
-        if (description) {
-            // Update Primary Meta Description
-            const metaDescription = document.querySelector('meta[name="description"]');
-            if (metaDescription) metaDescription.setAttribute('content', description);
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:url" content={currentUrl} />
+            <meta name="twitter:title" content={currentTitle} />
+            <meta name="twitter:description" content={currentDescription} />
+            <meta name="twitter:image" content={currentImage} />
 
-            // Update Open Graph Description
-            const ogDescription = document.querySelector('meta[property="og:description"]');
-            if (ogDescription) ogDescription.setAttribute('content', description);
-
-            // Update Twitter Description
-            const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-            if (twitterDescription) twitterDescription.setAttribute('content', description);
-        }
-    }, [title, description]);
-
-    return null;
+            {/* Structured Data (JSON-LD) */}
+            {schema && (
+                <script type="application/ld+json">
+                    {JSON.stringify(schema)}
+                </script>
+            )}
+        </Helmet>
+    );
 };
 
 export default SEO;

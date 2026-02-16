@@ -13,11 +13,31 @@ const MetroTracker = () => {
     // Use a common max for scaling bars to make them comparable relative to the largest network
     const maxScale = Math.max(maxOperational, maxConstruction);
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Indian Metro Rail Operational Data",
+        "description": "Live data on operational and under-construction metro lines in Indian cities.",
+        "url": "https://hub.streetfrontier.com/metro-tracker",
+        "keywords": "metro, india, operational length, under construction",
+        "creator": {
+            "@type": "Organization",
+            "name": "Streetfrontier Hub"
+        },
+        "distribution": {
+            "@type": "DataDownload",
+            "encodingFormat": "text/html",
+            "contentUrl": "https://hub.streetfrontier.com/metro-tracker"
+        }
+    };
+
     return (
         <Container className="swiss-container">
             <SEO
                 title="Metro Train Tracker | Indian City Metro Progress"
                 description="Mapping the growth of metro rail networks across Indian cities with live operational data."
+                url="https://hub.streetfrontier.com/metro-tracker"
+                schema={schema}
             />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>

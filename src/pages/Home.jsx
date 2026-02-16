@@ -44,12 +44,26 @@ const gateways = [
 ];
 
 const Home = () => {
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Streetfrontier Hub",
+        "url": "https://hub.streetfrontier.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://hub.streetfrontier.com/bus-fleet-size?city={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    };
+
     return (
         <div className="home-page">
             <Container className="swiss-container">
                 <SEO
                     title="Streetfrontier Hub | India's Urban Transit Gateway"
                     description="Your gateway to India's urban transit infrastructure. Track metro progress and calculate bus fleet sizes."
+                    url="https://hub.streetfrontier.com/"
+                    schema={schema}
                 />
                 {/* Hero Section */}
                 <Row className="justify-content-center text-center mb-5">

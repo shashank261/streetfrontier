@@ -28,11 +28,30 @@ const Resources = () => {
         }
     ];
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Transit Resources",
+        "description": "Official links, dashboards, and metro authority resources for all Indian cities.",
+        "url": "https://hub.streetfrontier.com/resources",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": resources[0].links.map((link, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "url": link.url,
+                "name": link.name
+            }))
+        }
+    };
+
     return (
         <Container className="swiss-container">
             <SEO
                 title="Transit Resources | Official Metro & Bus Authorities"
                 description="Access official links, dashboards, and metro authority resources for all Indian cities."
+                url="https://hub.streetfrontier.com/resources"
+                schema={schema}
             />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
@@ -49,20 +68,21 @@ const Resources = () => {
                         <h2 className="h4 mb-4 font-weight-bold text-uppercase" style={{ letterSpacing: '0.05em' }}>
                             {section.category}
                         </h2>
-                        <div className="list-group list-group-flush border-top">
+                        <ul className="list-group list-group-flush border-top ps-0 mb-0">
                             {section.links.map((link, lIdx) => (
-                                <a
-                                    key={lIdx}
-                                    href={link.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="list-group-item list-group-item-action py-3 d-flex justify-content-between align-items-center bg-transparent border-bottom"
-                                >
-                                    <span>{link.name}</span>
-                                    <span className="text-muted">↗</span>
-                                </a>
+                                <li key={lIdx} className="list-group-item p-0 bg-transparent border-bottom">
+                                    <a
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="d-flex justify-content-between align-items-center text-decoration-none text-reset w-100 h-100 py-3 px-3 list-group-item-action"
+                                    >
+                                        <span>{link.name}</span>
+                                        <span className="text-muted">↗</span>
+                                    </a>
+                                </li>
                             ))}
-                        </div>
+                        </ul>
                     </div>
                 ))}
             </div>

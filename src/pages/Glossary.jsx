@@ -95,11 +95,29 @@ const Glossary = () => {
         }
     ];
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Urban Transit Glossary",
+        "description": "Technical terms and jargon used in urban transit, categorized by infrastructure type.",
+        "url": "https://hub.streetfrontier.com/glossary",
+        "hasDefinedTerm": glossaryData.flatMap(category =>
+            category.terms.map(item => ({
+                "@type": "DefinedTerm",
+                "name": item.term,
+                "description": item.definition,
+                "termCode": item.term
+            }))
+        )
+    };
+
     return (
         <Container className="swiss-container">
             <SEO
                 title="Transit Glossary | Technical Jargon Explained"
                 description="Master the jargon: CBTC, gauges, rolling stock, signaling systems, and more."
+                url="https://hub.streetfrontier.com/glossary"
+                schema={schema}
             />
             <div className="mb-4">
                 <Link to="/" className="nav-link-custom">← Back to Hub</Link>
